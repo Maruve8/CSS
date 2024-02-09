@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 id="title">Cines Queen</h1>
+    <p id="description">Participa y gana 2 entradas para tu película favorita</p>
+    <form id="survey-form">
+      <fieldset>
+      <label id="name-label" for="name">Nombre <input required placeholder="Tu nombre" id="name" type="text"/></label>
+      <br>
+      <label id="email-label" for="email">Email <input type="email" required placeholder="Tu email" id="email"/></label>
+      <br/>
+      <label id="number-label" for="number">Edad 
+      <input required placeholder="Tu edad" id="number" type="number" min="18" max="110"/> </label>
+      </fieldset>
+  
+  <fieldset>
+       <label for="dropdown">¿A qué te dedicas?:
+      <select id="dropdown" name="dropdown">
+        <option value="option1">Elige una opción</option>
+        <option value="option2">Estudiante</option>
+
+        <option value="option3">Empleado</option>
+
+        <option value="option4">Desempleado</option>
+
+        <option value="option5>">Jubilado</option>  
+    </label>
+</select>
+
+<br/>
+<br/>
+<label>Género:
+  <br/>
+      <input type="radio" id="radio1" name="radioGroup" value="option1">
+      <label for="radio1">Mujer</label>
+
+      <input type="radio" id="radio2" name="radioGroup" value="option2">
+      <label for="radio2">Hombre</label>
+      
+<input type="radio" id="radio3" name="radioGroup" value="option3">
+      <label for="radio2">Prefiero no decirlo</label>
+  </label>
+    <br/>
+    <br/>
+ <label>Géneros de interés:
+   <br/>
+      <input type="checkbox" id="checkbox1" name="checkboxGroup" value="option1">
+      <label for="checkbox1">Comedia</label>
+
+      <input type="checkbox" id="checkbox2" name="checkboxGroup" value="option2">
+      <label for="checkbox2">Drama</label>
+
+ <input type="checkbox" id="checkbox3" name="checkboxGroup" value="option3">
+      <label for="checkbox3">Aventuras</label>
+
+<br/>
+ <input type="checkbox" id="checkbox4" name="checkboxGroup" value="option4">
+      <label for="checkbox4">Infantil</label>
+
+       <input type="checkbox" id="checkbox5" name="checkboxGroup" value="option5">
+      <label for="checkbox5">Ciencia ficción</label>
+    </label>
+    </fieldset>
+
+
+<fieldset>
+<label for="comments">¿Cómo valoras tu experiencia con Cines Queen?:
+      <textarea id="comments" name="comments" placeholder="Escribiendo..."></textarea>
+    </label>
+</fieldset>
+
+<button type="submit" id="submit">Enviar</button>
+
+
+    </form>
+  </body>
+  </html>

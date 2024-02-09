@@ -1,0 +1,87 @@
+body {
+    background-color: 090B38;
+    color: C4C3BC ;
+    font-family: serif;
+    padding: 10px;
+    }
+    
+    h1, p {
+      text-align: center;
+      margin: 1;
+    }
+    
+    p {
+    font-size: 14;
+    font-weight: bold;
+     margin-bottom: 20px;
+     white-space: nowrap; /* Hace que el texto no se divida en varias líneas */
+      overflow: hidden; /* Oculta el contenido que desborda */
+    }
+    
+    h1 {
+    font-family: Baskerville;  margin-bottom: 10px;
+    }
+    
+    fieldset:first-of-type, fieldset:nth-of-type(2) {
+      border-bottom: none; 
+      border-left: none;
+      border-right: none;
+      border-top: solid grey;
+    }
+    
+    fieldset:nth-of-type(2), fieldset:nth-of-type(3) {
+      border-top: none;
+      border-right: none;
+      border-left: none;
+      
+    }
+    
+    fieldset:first-of-type label {
+      display: block;
+    
+      
+    }
+    
+    fieldset:first-of-type input {
+      width: 100%;
+      box-sizing: 
+      border-box;
+    
+      
+    }
+    
+    fieldset:first-of-type {
+    margin-bottom: 30px;
+    }
+    
+    fieldset:nth-of-type(2) {
+    width: 100%
+    box-sizing: border-box;
+    margin-bottom: 30px;
+    
+    }
+    
+    fieldset:nth-of-type(3) {
+      border-bottom: solid grey;
+    }
+    
+    
+    fieldset:nth-of-type(2) {
+      display: flex; /* Utiliza flexbox para alinear los elementos en una fila */
+      justify-content: space-between; /* Distribuye los elementos a lo largo del contenedor */
+      align-items: center; /* Centra verticalmente los elementos en el contenedor */
+      
+      border-radius: 8px;
+      width: 100%;
+      
+    }
+    
+    #comments {
+      width: 100%;
+      box-sizing: border-box; /* Asegura que el ancho incluya el padding y el borde */
+    }
+    
+    
+    button {
+      margin-top: 20px;
+    }
